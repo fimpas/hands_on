@@ -109,19 +109,19 @@ public class Ann {
 		
 		// Test the developed neural network with the test set
 		}
-	}
+
 		public static void normalizeData(ArrayList<neural.Flower> flowerList){
 		// write code for normalizing the data
 		}
 		public static void clearValues(Layers input, Layers hidden, Layers output){
 		//clear the values at each node for the next iteration
 		}
-		public static double calError(Layers output, Flower fl, int index){
+		public static double calError(Layers output, neural.Flower flower, int index){
 		        double error=0;
 		//calculate the error between the neural network output and target values
 		        return error;
 		    }
-		public static void feedForward(Layers input, Layers hidden, Layers output, Flower fl, int index){
+		public static void feedForward(Layers input, Layers hidden, Layers output, neural.Flower flower, int index){
 		        //calculate the value at every node
 		}
 
